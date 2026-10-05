@@ -1,0 +1,30 @@
+div{
+    width: 500px;
+    height: 500px;
+    background: red;
+    animation: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move{
+
+    25%{
+        transform: translate(50vw , 0); 
+    }
+
+
+50%{
+    transform: translate(50vw , 50vh);
+}
+
+75%{
+   transform: translate(0 , 50vh);
+
+}
+
+100%{
+    transform: translate(0px);
+}
+
+}
